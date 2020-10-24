@@ -42,10 +42,4 @@ const binarySearch = (arr: number[], left: number, right: number, x: number) => 
 
 }
 
-console.log('Search position of 47 in [2, 3, 4, 10, 12, 40, 45, 47, 50]')
-console.log("Position of 47 at: ", binarySearch(arr1, 0, arr1.length - 1, 47))
-
-
-
-console.log('Search position of 51 in [2, 3, 4, 10, 12, 40, 45, 47, 50]')
-console.log("Position of 47 at: ", binarySearch(arr1, 0, arr1.length - 1, 51))
+export default binarySearch

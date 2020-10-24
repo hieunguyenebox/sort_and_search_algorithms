@@ -14,4 +14,5 @@ function linearSearch(arr: Array<number | string>, searchKey: number | string): 
   return false;
 }
 
-console.log(linearSearch(arr, 130))
+
+export default linearSearch

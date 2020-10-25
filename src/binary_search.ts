@@ -11,12 +11,6 @@
  * 5. if left > right, mean that we search all array 
  */
 
-const arr1 = [2, 3, 4, 10, 12, 40, 45, 47, 50]
-
-// left 3 right 4
-// x= 45
-// m=12
-// m=40
 
 const binarySearch = (arr: number[], left: number, right: number, x: number) => {
 

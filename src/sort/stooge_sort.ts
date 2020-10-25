@@ -6,13 +6,16 @@
  *  a. recur the first 2/3 of length of array
  *  b. recur the last 2/3 of length of array
  *  c. recur again the first 2/3 to confirm
+ * 
+ * this sort is very slow, O(n^2.709)
  */
 const stoogeSort = (arr: number[], left: number, right: number) => {
 
   if (arr[left] > arr[right]) {
-    const tmp = arr[left]
-    arr[left] = arr[right]
-    arr[right] = tmp
+    // const tmp = arr[left]
+    arr[left] = arr[left] + arr[right]
+    arr[right] = arr[left] - arr[right]
+    arr[left] = arr[left] - arr[right]
   }
 
   // only recur if there are still 2 items

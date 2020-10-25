@@ -1,5 +1,6 @@
 // the idea is to check fewer elements than linear search by jumping ahead by fixed steps
 // example: [2, 3, 4, 10, 12, 40, 45, 47, 50]
+// pre-condition: sorted array
 /**
  * block size is 3, mean we jump ahead 2 position
  * search for 47
@@ -17,6 +18,8 @@
  * m - 1 = total value to compare
  * so the (n/m + (m-1)) is minumum when m=sqrt(n)
  * n/sqrt(n)+(sqrt(n) - 1) = 2(sqrt(n)) - 1
+ * 
+ * time complexity O(sqrt(n))
  */
 
 

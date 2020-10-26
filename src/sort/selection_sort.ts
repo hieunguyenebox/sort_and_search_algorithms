@@ -2,6 +2,8 @@
  * the idea is
  * find the min value and put it at the begining of the loop index
  * 
+ * time: O(n^2)
+ * space: O(1)
  */
 
 const selectionSort = (arr: number[]) => {

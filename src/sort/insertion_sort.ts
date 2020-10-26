@@ -12,6 +12,9 @@
  * 
  * [4, 3, 2, 10, 5, 9, 17]
  * 
+ * time: O(n*2)
+ * Auxiliary Space: O(1)
+ * 
  */
 const insertionSort = (arr: number[]) => {
 

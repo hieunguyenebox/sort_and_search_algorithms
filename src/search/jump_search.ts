@@ -44,6 +44,7 @@ const jumpSearch = (arr: number[], x: number) => {
     prev += 1;
 
     // if prev jumpt to next block
+    // we can drop this condition, it is just for convinient
     if (prev === Math.min(step, arrLength))
       return false;
   }

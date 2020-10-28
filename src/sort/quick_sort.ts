@@ -4,6 +4,7 @@
  * partition is to move the greater value to the right side of pivot value
  * and move the smaller value to the left side of pivot
  * 
+ * time: O(nLogn), worst case is O(n^2)
  */
 
 const partition = (arr: number[], l: number, r: number): number => {
